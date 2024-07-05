@@ -15,8 +15,8 @@ export default {
         "dark-grey": "#B8B8B8",
         light: "#FAFAFA",
       },
-      zIndex: {
-        "-1": -1,
+      screens: {
+        smallBP: "600px",
       },
     },
   },

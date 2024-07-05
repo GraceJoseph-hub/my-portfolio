@@ -1,4 +1,5 @@
 import React from "react";
+import Title from "../Title/Title";
 // import { Link } from 'react-router-dom';
 const Projects = () => {
   const data = [
@@ -22,11 +23,13 @@ const Projects = () => {
 
   return (
     <div className="relative">
-      <h2>Projects</h2>
-      <div className="projects mt-5 pl-2">
+      <Title text="Projects" className="" />
+      <div className="projects mt-5 pl-4">
         {data.map((project, index) => (
-          <div className="mb-2" key={index}>
-            <a href={project.projectUrl}>{project.projectName}</a>
+          <div key={index} className="mb-2">
+            <a href={project.projectUrl} className=" border-b border-[#FFc94b] text-sm lg:text-lg">
+              {project.projectName}
+            </a>
           </div>
         ))}
       </div>

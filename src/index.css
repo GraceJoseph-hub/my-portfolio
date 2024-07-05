@@ -7,11 +7,13 @@
 
 body {
   @apply text-dark;
+  
 }
 
 
 .partial-border {
   position: relative;
+  /* height: screen; */
 }
 
 .partial-border::before,
@@ -22,31 +24,47 @@ body {
 }
 
 .partial-border::before {
-  top: 30px;
+  top: 10px;
   left: 30px;
   border-width: 12px 0 0 12px;
   border-style: solid;
-  border-radius: 3rem 3rem 3rem 3rem; 
-  width: 40%;
+  border-color: #FFc94b;
+  border-radius: 1.5rem 0 0 1rem; 
+  width: 20%;
   height: 50%;
 }
 
 .partial-border::after {
-  bottom: 30px;
+  position: absolute;
   right: 30px;
+  bottom: 50px;
   border-width: 0 12px 12px 0;
   border-style: solid;
-  border-radius: 3rem 3rem 3rem 3rem; 
-  width: 40%;
+  border-color: #FFc94b;
+  border-radius: 0 1rem 2rem 0; 
+  width: 20%;
   height: 50%;
+
+}
+ @media(max-width:500px){
+  .partial-border::before{
+    border-width: 8px 0 0 8px;
+    left: 75px;
+  }
+  .partial-border::after{
+    border-width: 0 8px 8px 0;
+    right: 75px;
+  }
 }
 
 .projects::before{
-  top: 30px;
+  top: 70px;
   left: 0;
   border-width: 2px 0 0 2px;
   border-style: solid;
-  border-radius: .5rem .5rem .5rem .5rem; 
-  width: 40%;
-  height: 60%;
+  border-radius: .5rem 0 .5rem 0; 
+  width: 5%;
+  height: 40%;
+  border-color: #FFc94b;
+  /* height: auto; */
 }

@@ -4,7 +4,7 @@ import Projects from "../components/Projects/Projects";
 
 function Home() {
   return (
-    <section className="flex justify-between gap-6 items-center px-32">
+    <section className="flex gap-20 justify-center flex-wrap items-top px-32 lg:pt-10">
       <Welcome className='max-w-xl'/>
       <Projects />
     </section>

@@ -1,23 +1,16 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-// import Projects from "./pages/Projects";
 import Header from "./components/Header/Header";
 
 function App() {
   return (
-    <Router>
-      <div className="bg-gray-900 text-gray-100 min-h-screen">
-        <div className="partial-border p-5 ">
+      <div className="bg-gray-900 text-gray-100 pb-6 lg:pb-0 h-full lg:h-screen flex flex-col justify-center items-center overflow-hidden">
+        <div className="partial-border p-5 h-full smallBP:h-screen lg:h-screen">
           <Header />
-          <main className="mt-10">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              {/* <Route path="/projects" element={<Projects />} /> */}
-            </Routes>
+        <main className="mt-10">
+          <Home />
           </main>
         </div>
       </div>
-    </Router>
   );
 }
 
