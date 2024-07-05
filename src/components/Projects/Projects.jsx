@@ -4,6 +4,10 @@ import Title from "../Title/Title";
 const Projects = () => {
   const data = [
     {
+      projectUrl: "https://mymakeupproject.netlify.app/",
+      projectName: "Make up API Project",
+    },
+    {
       projectUrl: "https://myspacetouch.netlify.app/",
       projectName: "Space Touch",
     },
