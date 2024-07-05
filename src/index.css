@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+
+body {
+  @apply text-dark;
+}
+
+
+.partial-border {
+  position: relative;
+}
+
+.partial-border::before,
+.partial-border::after, .projects::before {
+  content: '';
+  position: absolute;
+  border-color: #6B7280; 
+}
+
+.partial-border::before {
+  top: 30px;
+  left: 30px;
+  border-width: 12px 0 0 12px;
+  border-style: solid;
+  border-radius: 3rem 3rem 3rem 3rem; 
+  width: 40%;
+  height: 50%;
+}
+
+.partial-border::after {
+  bottom: 30px;
+  right: 30px;
+  border-width: 0 12px 12px 0;
+  border-style: solid;
+  border-radius: 3rem 3rem 3rem 3rem; 
+  width: 40%;
+  height: 50%;
+}
+
+.projects::before{
+  top: 30px;
+  left: 0;
+  border-width: 2px 0 0 2px;
+  border-style: solid;
+  border-radius: .5rem .5rem .5rem .5rem; 
+  width: 40%;
+  height: 60%;
+}
