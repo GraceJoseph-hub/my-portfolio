@@ -50,10 +50,12 @@ body {
   .partial-border::before{
     border-width: 8px 0 0 8px;
     left: 75px;
+     height: 15%;
   }
   .partial-border::after{
     border-width: 0 8px 8px 0;
     right: 75px;
+     height: 15%;
   }
 }
 
