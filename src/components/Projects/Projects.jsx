@@ -30,8 +30,14 @@ const Projects = () => {
       <Title text="Projects" className="" />
       <div className="projects mt-5 pl-4">
         {data.map((project, index) => (
-          <div key={index} className="mb-2">
-            <a href={project.projectUrl} className=" border-b border-[#FFc94b] text-sm lg:text-lg">
+          <div
+            key={index}
+            className="mb-2 transform hover:scale-105 transition delay-50 duration-300 ease-in-out"
+          >
+            <a
+              href={project.projectUrl}
+              className=" border-b border-[#FFc94b] text-sm lg:text-lg "
+            >
               {project.projectName}
             </a>
           </div>
