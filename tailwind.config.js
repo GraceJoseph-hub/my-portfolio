@@ -16,8 +16,9 @@ export default {
         light: "#FAFAFA",
       },
       screens: {
-        smallBP: "600px",
-        medium: "700px",
+        sm: "400px",
+        smallBP: "768px",
+        // medium: "900px",
       },
     },
   },

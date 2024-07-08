@@ -4,11 +4,11 @@ import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Header() {
   return (
-    <header className="w-full flex justify-between smallBP:gap-6 items-center px-28 pt-16">
-      <div className="text-2xl text-[#FFc94b] font-bold">JG</div>
+    <header className="w-full flex justify-between sm:gap-6 items-center lg:px-28 pt-16">
+      <div className="text-2xl text-[#FFc94b] font-bold px-4">JG</div>
       <div className="flex space-x-5">
         <a
-          onClick={() => window.location = "mailto:gracecjoseph5@gmail.com"}
+          onClick={() => (window.location = "mailto:gracecjoseph5@gmail.com")}
           // href={``}
           className="hover:text-yellow-500"
         >
