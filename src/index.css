@@ -48,14 +48,14 @@ body {
 }
 
 .projects::before{
-  top: 70px;
+  /* top: 70px;
   left: 0;
   border-width: 2px 0 0 2px;
   border-style: solid;
   border-radius: .5rem 0 .5rem 0; 
   width: 5%;
   height: 40%;
-  border-color: #FFc94b;
+  border-color: #FFc94b; */
   /* height: auto; */
 }
 

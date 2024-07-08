@@ -28,7 +28,7 @@ const Projects = ({className}) => {
   return (
     <div className={`relative ${className}`}>
       <Title text="Projects" className="mb-2" />
-      <div className="projects lg:mt-5 pl-4">
+      <div className="projects lg:mt-5">
         {data.map((project, index) => (
           <div
             key={index}
