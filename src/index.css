@@ -46,18 +46,6 @@ body {
   height: 50%;
 
 }
- @media(max-width:500px){
-  .partial-border::before{
-    border-width: 8px 0 0 8px;
-    left: 75px;
-     height: 15%;
-  }
-  .partial-border::after{
-    border-width: 0 8px 8px 0;
-    right: 75px;
-     height: 15%;
-  }
-}
 
 .projects::before{
   top: 70px;
@@ -69,4 +57,45 @@ body {
   height: 40%;
   border-color: #FFc94b;
   /* height: auto; */
+}
+
+
+ @media(max-width:500px){
+  .partial-border::before{
+    border-width: 4px 0 0 4px;
+    border-radius: 0 1rem 1rem 0;
+     top: 30px;
+    left: 15px;
+     height: 30%;
+  }
+  .partial-border::after{
+    border-width: 0 4px 4px 0;
+    border-radius: 0 1rem 1rem 0;
+    right: 15px;
+     height: 30%;
+  }
+
+  .projects::before{
+    display: none;
+}
+
+}
+
+@media(max-width:1024px){
+    .partial-border::before{
+    border-width: 4px 0 0 4px;
+    border-radius: 0 1rem 1rem 0;
+     top: 30px;
+    left: 25px;
+     height: 30%;
+  }
+  .partial-border::after{
+    border-width: 0 4px 4px 0;
+    border-radius: 0 1rem 1rem 0;
+    right: 15px;
+     height: 30%;
+  }
+  .projects::before{
+    display: none;
+}
 }

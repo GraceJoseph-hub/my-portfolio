@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "../Title/Title";
 // import { Link } from 'react-router-dom';
-const Projects = () => {
+const Projects = ({className}) => {
   const data = [
     {
       projectUrl: "https://mymakeupproject.netlify.app/",
@@ -26,13 +26,13 @@ const Projects = () => {
   ];
 
   return (
-    <div className="relative">
-      <Title text="Projects" className="" />
-      <div className="projects mt-5 pl-4">
+    <div className={`relative ${className}`}>
+      <Title text="Projects" className="mb-2" />
+      <div className="projects lg:mt-5 pl-4">
         {data.map((project, index) => (
           <div
             key={index}
-            className="mb-2 transform hover:scale-105 transition delay-50 duration-300 ease-in-out"
+            className="lg:mb-2 transform hover:scale-105 transition delay-50 duration-300 ease-in-out"
           >
             <a
               href={project.projectUrl}

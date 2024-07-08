@@ -17,6 +17,7 @@ export default {
       },
       screens: {
         smallBP: "600px",
+        medium: "700px",
       },
     },
   },

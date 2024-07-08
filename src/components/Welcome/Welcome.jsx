@@ -4,7 +4,7 @@ import Title from '../Title/Title';
 const Welcome = ({className}) => {
   return (
     <section className={` ${className}`}>
-      <Title text="Welcome " />
+      <Title text="Welcome " className="mb-2"/>
       <p className="lg:mt-5 text-sm lg:text-lg border-l-2 border-[#FFc94b] px-4">
         My name is Joseph Grace, a frontend developer based in Ibadan city, Oyo
         State, Nigeria. I have hands-on experience in React, Next.js,
