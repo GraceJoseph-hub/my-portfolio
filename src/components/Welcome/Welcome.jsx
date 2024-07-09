@@ -9,7 +9,7 @@ const Welcome = ({className}) => {
         My name is Joseph Grace, a frontend developer based in Ibadan city, Oyo
         State, Nigeria. I have hands-on experience in React, Next.js,
         TypeScript, and Tailwind, working on projects ranging from e-commerce
-        applications with API integrations and Context API for state management
+        applications with API integrations and Context API for state management,
         to static applications. I am passionate about creating cutting-edge,
         pixel-perfect, and beautiful interfaces with intuitively implemented UX.
         Eager to grow and enhance my skills, I am currently seeking a junior
