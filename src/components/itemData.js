@@ -14,7 +14,7 @@ const itemData = [
   {
     projectUrl: "https://amsgrace.netlify.app/",
     projectName: "Attendance Management System",
-  },D
+  },
   {
     projectUrl: "https://grace-ecommerce.netlify.app/",
     projectName: "E-commerce",
