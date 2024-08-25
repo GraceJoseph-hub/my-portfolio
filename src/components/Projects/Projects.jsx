@@ -23,6 +23,14 @@ const Projects = ({className}) => {
       projectUrl: "https://shiny-dusk-a340cd.netlify.app/",
       projectName: "Logistics",
     },
+    {
+      projectUrl: "https://ecurrencytask.netlify.app/",
+      projectName: "E-currency-Task",
+    },
+    {
+      projectUrl: "https://amsgrace.netlify.app/",
+      projectName: "Attendance Management System",
+    },
   ];
 
   return (
