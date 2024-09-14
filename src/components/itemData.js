@@ -27,6 +27,10 @@ const itemData = [
     projectUrl: "https://shiny-dusk-a340cd.netlify.app/",
     projectName: "Logistics",
   },
+  {
+    projectUrl: "https://shiny-dusk-a340cd.netlify.app/",
+    projectName: "Food",
+  },
 ];
 
 export default itemData
